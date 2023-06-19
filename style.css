@@ -1,0 +1,371 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*--------------------------------------*/
+
+/* Customizations*/
+nav {
+    margin-top: 0px;
+    padding: 24px;
+    background-color: #031c4b;
+    text-align: center;
+    font-size: 27px;
+    color: white;
+
+}
+
+.Home {
+    color: #4e963c;
+}
+
+.Blog {
+    color: #4e963c;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 26px;
+    padding-right: 60px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 40px 0px;
+}
+
+h2 {
+    color: rgba(15, 15, 15, 0.9);
+    margin: 30px auto;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: #031c4b;
+    font-size: 26px;
+    font-family: sans-serif;
+    text-align:left;
+    font-weight: bold;
+}
+
+hr {
+    width: 900px;
+    color: gray;
+    border-style: dashed;
+    margin: 60PX auto;
+}
+
+p {
+    font-size: 24px;
+    color: rgba(60, 59, 59, 0.848);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 10px;
+    text-align: left;
+}
+
+section {
+    text-align: center;
+    /*margin: 20px auto;*/
+}
+
+.exercise-one {
+    width: 200px;
+    height: 200px;
+    background-color: #99D8CA;
+    border: 16px solid #5873E2;
+    outline: 8px solid #0D1430;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 26px#90FFA9;
+    /*display: inline-block;*/
+    margin: 60px auto;
+
+}
+
+.container-one {
+    width: 20px;
+    height: 20px;
+    background-color: #99D8CA;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+span {
+    font-size: 22px;
+    margin-right: 14px;
+    vertical-align: middle;
+}
+/*Customizations for individual circles*/
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #99D8CA;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 8px;
+
+}
+.one {
+    background-color: #0D1430;
+
+}
+
+.two {
+
+    background-color: #90FFA9;
+}
+
+.three {
+    background-color: #5873E2;
+}
+/*end of circle background customizations*/
+
+/*exercise two (HOME)customization*/
+.container-two {
+    width: 660px;
+    border: 2px solid;
+    margin: 30px auto;
+    font-size: 0px;
+}
+
+.box {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: #dae2f9;
+    display: inline-block;
+}
+
+.border {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: #dae2f9;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.border-box {
+    box-sizing: border-box;
+
+}
+
+
+/*BLOG Customizations*/
+.row-one{
+    margin:30px auto;
+    text-align: center;  
+  
+}
+.row-two{
+    margin:0px auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+img {
+    width: 460px;
+    height: 300px;
+}
+
+p {
+    color: rgba(15, 15, 15, 0.9);
+    font-size: 18px;
+}
+
+.rounded-button  {
+    width: 90px;
+    height: auto;   
+    border-radius: 80px;
+    background-color: #5eb23c;
+    margin-top: 40px;
+    padding: 14px;
+
+}
+.rounded-button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.learn-more{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5fb23c;
+    display: block;
+    text-align:left;
+    text-decoration: underline;
+}
+
+
+.box-one {
+    width: 460px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.box-two {
+    text-align: left;
+    width: 460px;
+    height: 300px;
+    display:inline-block;
+    margin: 10px;
+    vertical-align:top; /*aligns H3 to top*/
+}
+
+.box-three {
+    width: 460px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+
+}
+
+.box-four {
+    width: 460px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
